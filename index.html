@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="spaing"></div>
+        <div class="content-wrap">
+            <span class="prevRegister">
+                <i class="fa-solid fa-arrow-left icon-back"></i>
+                <span>
+                    
+                </span>
+            </span>
+            <h3 class="title">
+                Simple Registration
+            </h3>
+            <div class="row">
+                <div class="col l-6 first-col">
+                    <ul class="register-list">
+                        <li class="register-item">
+                            <span class="register-text register-email active">Enter your email</span>
+                            <i class="fa-solid fa-pen"></i>
+                        </li>
+                        <li class="register-item">
+                            <span class="register-text register-password">Set password</span>
+                            <i class="fa-solid fa-pen"></i>
+                        </li>
+                        <li class="register-item">
+                            <span class="register-text register-determine">Confirm</span>
+                            <i class="fa-solid fa-pen"></i>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col l-6 second-col">
+                    <div class="second-content">
+                        <div class="email-part">
+                            <ul class="social">
+                                <li class="icon-list">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </li>
+                                <li class="icon-list">
+                                    <i class="fa-brands fa-google"></i>
+                                </li>
+                                <li class="icon-list">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </li>
+                                <li class="icon-list">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </li>
+                                <li class="icon-list">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </li>
+                                <li class="icon-list">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </li>
+                            </ul>
+                            <form autocomplete="off" class="form form-1">
+                                <input class="form-input form-input-1" name="input" placeholder=" ">
+                                <label class="label-1" for="name">abc@gmail.com</label>
+                                <button type="submit" class="form-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </form>
+                            <div class="confirm">
+                                <i class="fa-solid fa-check icon-confirm"></i>
+                                <span class="confirm-text">
+                                    I want to receive promote email
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="password-part">
+                            <form class="form form-2">
+                                <input type="password" class="form-input form-input-2" name="password" placeholder=" ">
+                                <label class="label-2" for="name">Password</label>
+                                <button type="submit" class="form-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    
+                                </button>
+                            </form>
+                            <div class="password-request">
+                                <span class="request-title">
+                                    Password must contains:
+                                </span>
+                                <div class="password-content">
+                                    <ul class="list">
+                                        <li class="request-item uppercase">
+                                            <i class="fa-solid request-icon fa-circle"></i>
+                                            <span class="request-text">
+                                                1 uppercase
+                                            </span>
+                                        </li>
+                                        <li class="request-item number">
+                                            <i class="fa-solid request-icon fa-circle"></i>
+                                            <span class="request-text">
+                                                1 number
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list">
+                                        <li class="request-item special">
+                                            <i class="fa-solid request-icon fa-circle"></i>
+                                            <span class="request-text">
+                                                `!#$%^&*()_-+=|\?/.,
+                                            </span>
+                                        </li>
+                                        <li class="request-item character">
+                                            <i class="fa-solid request-icon fa-circle"></i>
+                                            <span class="request-text">
+                                                8 - 16 characters
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="confirm-part">
+                            <P>
+                                By registering, you agree to the <a href="">Terms and Condition</a>, and that you have read
+                                our <a href="">Data Use Policy</a> of our AVAL End User License
+                            </P>
+                            <button class="confirm-button" type="submit">I AGREE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spaing">
+        </div>
+        <div class="modal">
+            <div class="success-area">
+                <i class="fa-solid fa-check modal-icon"></i>
+            </div>
+            <span class="modal-success">SUCCESSFUL</span>
+            <div class="modal-content">
+                <p class="modal-inform">
+                    A verification email has been sent to you.
+                </p>
+                <p class="modal-inform">
+                    Please click on the activation link to confirm your account
+                </p>
+            </div>
+            <a href="">
+                <button class="modal-btn">
+                    ok
+                </button>
+            </a>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
